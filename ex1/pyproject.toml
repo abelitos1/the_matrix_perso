@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "loading"
+version = "0.1.0"
+description = "Matrix data analysis pipeline"
+authors = ["Abel <abpersoh@student.42.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "2.5.1"
+pandas = "3.0.3"
+matplotlib = "3.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
